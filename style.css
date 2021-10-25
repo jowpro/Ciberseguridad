@@ -1,0 +1,301 @@
+body{
+    background-color:rgba(88, 100, 153, 0.555);
+}
+header{
+     background-color: rgba(231, 233, 240, 0.74);;
+    height: 70px;
+    width: 98.8%;
+    margin: auto;
+
+
+position: fixed;
+
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+  box-shadow: 5px -5px 20px grey;
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+   
+  
+ 
+}
+
+nav a{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(4, 12, 15, 0.877);
+   
+    font-weight: bold;
+
+}
+#principal{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(220, 227, 235);
+    border-radius: 30px;
+}
+#buscar{
+    border-radius: 10px;
+    width: 300px;
+    height: 20;
+}
+
+
+input{
+   
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    outline: none;
+    border: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: rgba(229, 237, 240, 0.904);
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+ 
+}
+
+
+
+#icobuscar{
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 90px;
+    background-color: transparent;
+    color: royalblue;
+    
+}
+
+#nav2{
+   background-image: url('vulnerable3.jpg');
+   background-position: center;
+   background-size: cover;
+ 
+   height: 600px;  
+}
+
+#nav2 a{
+    text-decoration: none;
+  
+    color:black;
+    font-size: 18px;
+
+  
+    
+  
+    
+}
+li{
+    list-style: none;
+    text-align: start;
+
+    
+   
+}
+
+.divlis{
+
+ display: flex;
+
+ width: 100%;
+
+margin-top: 50px;
+
+height: 250px;
+}
+
+#divaside{
+    display: flex;
+}
+#aside{
+   
+   
+}
+#section2{
+    width: 60%;
+   margin: auto;
+  
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    padding: 23px;
+   
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#aside a{
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+#diva {
+    box-shadow: 5px 5px 10px darkolivegreen ;
+    width: 25%;
+    text-align: center;
+   height: 250px;
+   background-color:rgb(193, 216, 235);
+   margin-left: 200px;
+   border-radius: 25px;
+    
+}
+#divb{
+    box-shadow: 5px 5px 10px darkolivegreen ;
+    width: 25%;
+    text-align:left;
+    height: 200px;
+    background-color:rgb(193, 216, 235);
+    margin-left: 400px;
+    border-radius: 25px;
+}
+#divc{
+    box-shadow: 5px 5px 10px darkolivegreen ;
+    width: 25%;
+    text-align: center;
+    height: 200px;
+    background-color:rgb(193, 216, 235);
+    margin-left: 600px;
+    border-radius: 25px;
+}
+#divd{
+    box-shadow: 5px 5px 10px darkolivegreen ;
+    width: 25%;
+    text-align: center;
+    height: 200px;
+    background-color:rgb(193, 216, 235);
+    margin-left: 800px;
+    border-radius: 25px;
+}
+  .pprincipal{
+    width: 50%;
+    text-align: center;
+  margin: auto;
+  font-size: 23px;
+  font-style: italic;
+  box-shadow: -10px 10px 10px grey;
+  text-align: justify;
+  
+}
+.psecundario{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 23px;
+    font-style: italic;
+    
+}
+.pprin{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 23px;
+    font-style: italic;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:rgba(125, 118, 187, 0.336) ;
+}
+.logo {
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+.titulofooter{
+    font-style: italic;
+
+}
+#contimg{
+    display: flex;
+    width: 90%;
+}
+.pimg1{
+    width: 75%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    box-shadow: -10px 10px 10px lightblue;;
+    background-color: rgb(230, 240, 255);
+    margin-top: 0;
+
+}
+.pimg2{
+    width: 70%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    box-shadow: -10px 10px 10px lightblue;;
+    background-color: rgb(230, 240, 255);
+    margin-top: 0;
+}
+.pimg3{
+    width: 65%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+   box-shadow: -10px 10px 10px lightblue;;
+    background-color: rgb(230, 240, 255);
+    margin-top: 0;
+
+}
+#tvirus h3{
+font-size: 30px;
+font-style: italic;
+
+}
+#tvirus a{
+    font-size: 20px;
+    text-decoration: none;
+  
+    
+    }
+    .antivirus h3{
+font-weight: bold;
+    }
+    .antivirus a {
+text-decoration: none;
+font-size: 20px;        
+    }
+#amana h4{
+    text-align: center;
+}
+#amana p{
+width: 60%;
+margin: auto;
+font-size: 20px;
+font-style: italic;
+
+}
+.span{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}

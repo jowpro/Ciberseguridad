@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+ 
+   
+    <title>Ciberseguridad</title>
+    
+</head>
+<body>
+
+
+
+
+
+  <script>
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(inicio);
+
+function inicio(){
+ 
+  $("input").hide();
+
+      $("#icobuscar").click(function(){
+          $("input").slideToggle();
+      })
+
+$("#diva").hide();
+
+
+$("#ciber").mouseover(function(){
+
+    $("#diva").slideDown();
+    $("#divb").hide();
+    $("#divc").hide();
+    $("#divd").hide();
+})
+
+$("#diva").mouseleave(function(){
+
+    $("#diva").hide();
+
+})
+$("#divb").hide();
+
+
+$("#ama").mouseover(function(){
+
+    $("#divb").slideDown();
+    $("#diva").hide();
+    $("#divc").hide();
+    $("#divd").hide();
+})
+$("#divb").mouseleave(function(){
+
+$("#divb").hide();
+
+})
+$("#divc").hide();
+$("#pro").mouseover(function(){
+
+$("#divc").slideDown();
+$("#diva").hide();
+$("#divb").hide();
+$("#divd").hide();
+})
+$("#divc").mouseleave(function(){
+
+$("#divc").hide();
+
+})
+$("#divd").hide();
+$("#vulne").mouseover(function(){
+
+$("#divd").slideDown();
+$("#diva").hide();
+$("#divb").hide();
+$("#divc").hide();
+})
+$("#divd").mouseleave(function(){
+
+$("#divd").hide();
+
+})
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+    <div id="principal">
+    <header>
+<nav>
+    <a  href=""><img class="logo" src="imagen6.jpg" alt=""></a>
+
+    <a id="ciber" href=""> Ciberseguridad</a> 
+    <a id="ama" href=""> Amenaza</a>
+    <a id="pro" href=""> Proteccion</a>
+    <a id="vulne" href=""> Vurnerabilidad</a>
+    
+
+
+<div id="buscar">
+    
+
+ <button id="icobuscar" ><img id="icobuscar" src="lupa.png" alt=""></button>
+ <input placeholder="Que deseas buscar?" list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+</div>
+
+</nav>
+
+    </header>
+    
+
+    <nav id="nav2">
+        
+       
+    
+ 
+    <div class="divlis">
+   
+        <div id="diva"><br>
+            <li> <a href="index.html">-Que es ciberseguridad</a></li><br>
+            <li> <a href="ciber2.html">-De que trata la ciber</a></li><br>
+            <li> <a href="ciber3.html">-Que son virus</a></li><br>
+            <li> <a href="ciber4.html">-Que son antivirus</a></li><br>
+            <li> <a href="ciber5.html">-Que es proteccion</a></li><br>
+            <li> <a href="ciber6.html">-Historia de seguridad</a></li><br>
+           
+         
+        </div>
+        <div id="divb"><br>
+            <li> <a href="amenaza.html">-Que son amenaza</a></li><br>
+            <li> <a href="amenaza2.html">-Tipos de amenaza</a></li><br>
+            <li> <a href="amenaza3.html">-Poque las amenaza</a></li><br>
+            <li> <a href="amenaza4.html">-Que hacer con las amenaza</a></li><br>
+          
+          </div>
+        
+        <div id="divc"><br>
+          <li> <a href="proteccion1.html">- Que es ?</a></li><br>
+          <li> <a href="proteccion2.html">-Como protegerme</a></li><br>
+          <li> <a href="proteccion3.html">-Tipos de proteccion</a></li><br>
+          <li> <a href="proteccion4.html">-Poque debo protegerme</a></li>
+         
+        </div>
+          <div id="divd"><br>
+            <li> <a href="vulnerable1.html">-Que son vulnerabilidades</a></li><br>
+            <li> <a href="vulnerable2.html">-tipos de vulnerabilidades</a></li><br>
+            <li> <a href="vulnerable3.html">-Como saber si tengo </a></li><br>
+            <li> <a href="vulnerable4.html">-Como corregirlas</a></li><br>
+           
+     
+        </div>
+    </div>
+    </nav >
+
+
+<br>
+<br>
+<br>
+
+    <section>
+        <article>
+            <h1 class="titulo">Como corregir las vulnerabilidades?</h1>
+            <br>
+            
+            <p class="pprincipal">
+                <span class="span">Técnica para el análisis de vulnerabilidades</span><br>
+                
+                Con el propósito de detallar los riesgos a que se ven expuestos los activos de un
+                sistema de información y optimización de la seguridad. El análisis de
+                vulnerabilidades se integra con el análisis de riesgos comprendiendo las
+                siguientes tareas:
+                <br><br>
+                <span class="span"> Identificación de la Infraestructura.</span><br>
+
+                
+                 
+                 Se reconoce los dispositivos físicos y
+                lógicos con que cuenta la red y establecer las vulnerabilidades en:
+                programas, hosts, servidores, Routers.
+<br><br>
+<span class="span">    Pruebas.</span><br>
+             
+                 
+                 Se efectúa una relación de servicios activos de acuerdo a su
+                utilidad y la confiabilidad de los datos almacenados. A través del empleo de
+                herramientas de pentesting se identifica componentes activos que se
+                encuentran en la red, mediante una dirección IP para localizar las
+                vulnerabilidades existentes en el software y prevenir percances de
+                seguridad.               
+                .</p>
+            <br>
+            <br>
+            
+            <br>
+            <center>
+                <iframe width="620" height="461" src="https://www.youtube.com/embed/zHLHrbiLP88" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center> 
+        </article>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+
+    <div id="divaside">
+      
+    <section id="section2">
+
+      <article>
+          <h3 class="titulo">Tecnica de instrucion</h3>
+          <p class="pprin">
+              
+           
+            Es una agrupación de acciones cuya finalidad es vulnerar la seguridad de los
+            sistemas de información. Dichas prácticas además de conocerlas los delincuentes
+            informáticos, es necesario que los profesionales de la seguridad de información
+            también las conozcan, con el objetivo de brindar protección y salvaguardar los
+            sistemas de información de forma efectiva y precisa.
+            <br><br>
+            Reconocer las inseguridades del sistema de información es labor significativa
+            tanto para el delincuente informático como para el que lo protege; no debe
+            eliminarse una vulnerabilidad si desde el inicio se ignora su presencia.
+            <br><br>
+
+             
+            <span class="span">Escaneo de Puertos:</span><br>
+            
+            El mapeo de puertos se basa en identificar los puertos
+            abiertos con el fin de analizarlos internamente en uno o varios hosts que
+            integran una red. El escaneo de puertos es utilizado para optimizar las
+            funciones de seguridad y utilidad de las redes, de igual forma se logra
+            transformar en una acción peligrosa que se usa para averiguar zonas
+            críticas sensibles y violentar el ingreso al sistema de información.
+            Los sistemas informáticos pueden presentar puertos abiertos que son omitidos por
+            los profesionales de seguridad, ocasionado que los puertos no sean supervisados
+            y la información circule por medio de estos desprovistos de controles de
+            seguridad, produciendo una vulnerabilidad del sistema de información, Lo anterior
+            es producto de errores en la configuración de los procedimientos de seguridad, en
+            los cortafuegos por defecto se dejan diversos puertos abiertos, y los encargados
+            de la administración de los cortafuegos omiten analizar cuidadosamente la
+            configuración para identificar todos los puertos utilizables . <br><br>  
+            Cuando los puertos TCP/IP (interfaces de transmisión no físicas para conmutación
+            de datos y servicios en una red) se encuentran abiertos son atractivos para los 
+            atacantes los cuales pueden ejecutar pruebas de intrusión y vulnerar la seguridad
+            de una red. Una técnica usual para revelar los puertos abiertos es el sondeo con el
+            objetivo de evaluar los servicios aprovechables en una red, para identificar puertos
+            vulnerables se remite una sucesión de paquetes deficientes a una dirección IP
+            inexistente en la red, estos son filtrados por el firewall el cual los obstruye y no
+            accede a enrutarlos, cuando no se efectúa el filtrado faculta el paso de los
+            paquetes los cuales no es factible enrutarlos y al no poder enrutarlo
+            apropiadamente, el firewall envía avisos de error ICMP (Protocolo de Mensajes de
+            Control de Internet: accede gestionar y notificar errores de los hosts de una red
+            más no permite su modificación) mostrando que los paquetes no se filtraron.                    
+           .</p>
+        </article>
+        
+      
+    </section>
+
+    <aside id="aside">
+
+    </aside>
+    
+</div>
+<br><br>
+<center>
+    <iframe width="520" height="461" src="https://www.youtube.com/embed/Skyx3fBZUsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center> 
+<br>
+
+<h3 class="titulo">Mitigacion de riesgo</h3>
+   <br>
+   <br>
+   <p class="pprin" >
+
+<span class="span">  Metodología para minimizar riesgos. </span><br>
+  
+    
+    Se fundamenta en prevalecer, valorar y
+    efectuar los controles adecuados de reducción de riesgos sugeridos por el
+    tratamiento de estimación del riesgo.
+    <br><br>
+
+    <span class="span">Opciones de resolución para mitigar el riesgo:</span><br>
+
+    
+
+  Aceptar el riesgo. Admitir el riesgo latente y seguir trabajando, o establecer
+    controles para aminorar el riesgo a un estado admisible.
+Prevenir el riesgo. Suprimir el origen y/o secuela del riesgo. <br><br>
+<span class="span"> Disminuir el riesgo:</span><br>
+  
+   
+   Restringir el riesgo con el establecimiento de controles que
+    disminuyen el efecto perjudicial de una amenaza que aprovecha una debilidad.
+<br><br>
+<span class="span">  Opciones de tratamiento del riesgo:</span><br>
+  
+
+     <span class="span">mitigación</span>
+    La mitigación del riesgo se refiere a una de dos opciones: <br>
+    • Disminuir la desvalorización ocasionada por una amenaza. <br>
+
+    • Aminorar la posibilidad de que una amenaza se realice.
+    En los casos anteriores se debe aumentar u optimizar el grupo de protecciones.      
+    .</p>
+   <br>
+   <br>
+   <center>
+<img style="width: 50%; height: 30%;"  src="vulnerable4.jpg" alt="">
+</center>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<div >
+<img class="logo" src="facebook.png" alt="">
+<img class="logo" src="instagram.jpg" alt="">
+<img class="logo" src="twirer.png" alt="">
+<img class="logo" src="linkedin.png" alt="">
+</div>
+<footer>
+    <div id="footer">
+<div >
+    <h3 class="titulofooter"s >CONTENIDO</h3>
+  
+        <li>--Seguriadad--</li>
+        <li>--Spionaje--</li>
+        <li>--Virus--</li>
+        <li>--Defenza--</li>
+        <li>--Hacking--</li>
+
+</div >
+<div>
+    <h3 class="titulofooter">CONTACTO</h3>
+    <li>CEL: 849-852-4986</li>
+    <li>.....CEL: 849-852-4986</li>
+    <li>CEL: 849-852-4986</li>
+    
+    <h3 class="titulofooter" >COMPANY</h3>
+    <P>JOSELUIS.COMP</P>
+</div>
+<div>
+    <h3 class="titulofooter" >REDES SOCIALES</h3>
+    <li>FACEBOOK</li>
+    <li>INSTAGRAN</li>
+    <li>TWIRER</li>
+</div>
+</div>
+
+    </footer>
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
